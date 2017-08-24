@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd"
+    tools:context="com.example.rakesh.collegeneed.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Select Starting Date and Time"
+        android:textSize="25dp"
+        android:textColor="#4a21ba"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/in_date"
+        android:hint="Starting Date"
+        android:textColor="#8e5970"
+        android:textColorHint="#9622aa"
+        android:layout_marginTop="82dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/buttonxml"
+        android:id="@+id/starting_date"
+        android:layout_marginTop="82dp"
+        android:layout_marginLeft="235dp"/>
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/in_time"
+        android:hint="Starting Time"
+        android:textColor="#8e5970"
+        android:textColorHint="#9622aa"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT TIME"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/buttonxml"
+        android:id="@+id/starting_time"
+       android:layout_marginTop="140dp"
+        android:layout_marginLeft="235dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#4a21ba"
+        android:text="Select Ending Date and Time"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Ending Date"
+        android:textColor="#8e5970"
+        android:textColorHint="#9622aa"
+        android:id="@+id/out_date"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:id="@+id/ending_date"
+        android:layout_marginTop="310dp"
+        android:onClick="onClick"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/buttonxml"
+        android:layout_marginLeft="235dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/out_time"
+        android:layout_marginTop="378dp"
+        android:hint="Ending Date"
+        android:textColor="#8e5970"
+        android:textColorHint="#9622aa"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT TIME"
+        android:id="@+id/ending_time"
+        android:layout_marginTop="378dp"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/buttonxml"
+        android:layout_marginLeft="235dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:id="@+id/ok_btn"
+        android:onClick="okfunction"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:background="@drawable/buttonxml"
+        android:layout_centerHorizontal="true"
+        android:text="OK"/>
+
+
+</RelativeLayout>

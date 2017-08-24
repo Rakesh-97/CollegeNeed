@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The Team"
+            android:gravity="center_horizontal"
+            android:textColor="#4a21ba"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is developed by the collabrative efforts of :\n\n"/>
+
+        <TextView
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"
+            android:id="@+id/link"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:autoLink="all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/link"/>
+
+
+
+</RelativeLayout>
